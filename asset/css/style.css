@@ -88,3 +88,49 @@ table {
 	background-color: #91a3b0;
 }
 
+.leftPanel {
+	margin-top: -5px;
+	float: left;
+	background-color: #91a3b0;
+	width: 20%;
+	height: 500px;
+}
+
+#assemble tr:nth-child(odd) > td {
+	border: black solid 1px;
+	width: 100px;
+	height: 42px;
+	padding: 0;
+}
+
+#assemble tr:nth-child(even) {
+	height: 10px;
+}
+
+.assembleSlot {
+	height: 42px;
+}
+
+.assemblePiece {
+	text-align: center;
+	background-color: #91a3b0;
+}
+
+.assembledBot {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.assembledBot tr td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.assembledBot img {
+	display: block;
+}
+

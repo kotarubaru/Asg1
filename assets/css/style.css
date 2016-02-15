@@ -134,3 +134,7 @@ table {
 	display: block;
 }
 
+#players {
+	border: black solid 1px;
+}
+

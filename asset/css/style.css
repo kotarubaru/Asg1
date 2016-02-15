@@ -1,0 +1,63 @@
+
+body {
+	background-color: #dddddd;
+	font-family: Arial, "Sans serif";
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#nav-left {
+	display: inline;
+	text-align: left;
+	float: left;
+	margin-left: 5%;
+}
+
+#nav-right {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin-right: 5%;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 1.5em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.2em;
+	background-color: #555585;
+	/* Ensures the nav bar will be 'on top' */
+	z-index: 1000;
+}
+
+#navspace {
+	width: 100%;
+	height: 2.5em;
+}
+
+hr {
+	border: 0;
+	height: 3px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #91a3b0;
+	background-color: #91a3b0; /* IE expects background-color rather than color */
+}
+
+footer {
+	font-size: 0.75em;
+}
+
+.textCenter {
+	text-align: center;
+}

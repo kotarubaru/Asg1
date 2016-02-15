@@ -61,3 +61,30 @@ footer {
 .textCenter {
 	text-align: center;
 }
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tradeTable {
+	border-collapse: collapse;
+}
+
+.tradeTable tr:nth-child(odd) {
+	background-color: #91a3b0;
+}
+
+.tradeTable tr:nth-child(even) {
+	background-color: #bbbbbb;
+}
+
+.tradeTable td {
+	border: 0;
+}
+
+#collection td {
+	border: black solid 1px;
+	background-color: #91a3b0;
+}
+
